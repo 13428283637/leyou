@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="https://github.com/13428283637/leyou.git" uploadOnCheckin="f7390c7f-767b-4ad2-b5bb-1599fb20e007">
+    <serverData>
+      <paths name="https://github.com/13428283637/leyou.git">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/13428283637/leyou.git" />
+  </component>
+</project>
