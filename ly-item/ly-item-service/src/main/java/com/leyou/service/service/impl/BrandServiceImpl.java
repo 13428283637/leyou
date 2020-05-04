@@ -7,6 +7,7 @@ import com.leyou.common.enums.ExceptionEnum;
 import com.leyou.common.exception.LyException;
 import com.leyou.common.vo.PageResult;
 import com.leyou.item.pojo.Category;
+import com.leyou.item.vo.BrandVo;
 import com.leyou.service.mapper.BrandMapper;
 import com.leyou.item.pojo.Brand;
 import com.leyou.service.service.BrandService;
@@ -24,14 +25,51 @@ import java.util.List;
 @Slf4j
 public class BrandServiceImpl implements BrandService {
 
+
+
     @Autowired
     private BrandMapper brandMapper;
 
     @Override
-    public List<Category> queryCategoryByBid(Long bid) {
-        brandMapper.queryCategoryByBid(bid);
-        return null;
+    public void deleteBrand(Long bid) {
+        brandMapper.deleteByPrimaryKey(bid);
     }
+
+    @Override
+    @Transactional
+    public void updateBrand(BrandVo brandVo) {
+
+        Brand brand = new Brand();
+        brand.setId(brandVo.getId());
+        brand.setName(brandVo.getName());
+        brand.setImage(brandVo.getImage());
+        brand.setLetter(brandVo.getLetter());
+        int resultCount = brandMapper.updateByPrimaryKey(brand);
+        if(resultCount==0){
+            throw new LyException(ExceptionEnum.BRAND_UPDATE_FAIL);
+        }
+
+        List<Long> cids = brandVo.getCids();
+
+        brandMapper.deleteCategoryBrandByBid(brandVo.getId());
+
+        for(Long cid : cids){
+            resultCount = brandMapper.saveCategoryBrand(cid, brandVo.getId());
+            if(resultCount==0){
+                throw new LyException(ExceptionEnum.BRAND_UPDATE_FAIL);
+            }
+        }
+
+    }
+
+
+
+    @Override
+    public List<Category> queryCategoryByBid(Long bid) {
+        return brandMapper.queryCategoryByBid(bid);
+    }
+
+
 
     @Override
     public PageResult<Brand> queryBrandByPageAndSort(Integer page, Integer rows, String sortBy, Boolean desc, String key) {

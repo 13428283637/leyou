@@ -1,126 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="182d981d-f97b-4b33-8a31-6dcb8b59ff0e" name="Default Changelist" comment="完成图片上传2">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leyou_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/leyou/LyApiGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/java/com/leyou/gateway/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/META-INF/ly-api-gateway.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/com/leyou/LyApiGateway.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/classes/com/leyou/gateway/config/GlobalCorsConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/ly-api-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/ly-api-gateway-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-api-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/advice/BasicExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/exception/LyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/Md5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/ThreadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/vo/ExceptionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/vo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/advice/BasicExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/enums/ExceptionEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/exception/LyException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/IdWorker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/JsonUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/Md5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/NumberUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/ThreadUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/ExceptionResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/PageResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/ly-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/ly-common-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Brand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/ly-item-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/ly-item-interface-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/LyItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/META-INF/ly-item-service.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/LyItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/controller/BrandController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/mapper/BrandMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/mapper/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/service/BrandService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/service/impl/BrandServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-item/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/src/main/java/com/leyou/LyRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/target/classes/com/leyou/LyRegistry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/target/ly-registry-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/target/ly-registry-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-registry/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/leyou/LyUploadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/leyou/config/FastClientImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/leyou/config/UploadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/leyou/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/leyou/upload/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/java/com/leyou/upload/service/impl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/LyUploadApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/config/FastClientImporter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/config/UploadProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/upload/controller/UploadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/upload/service/UploadService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/upload/service/impl/UploadServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="182d981d-f97b-4b33-8a31-6dcb8b59ff0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/enums/ExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/enums/ExceptionEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/service/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/controller/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/mapper/BrandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/service/BrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/service/service/impl/BrandServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +88,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -204,7 +97,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -316,7 +209,9 @@
       <workItem from="1588483142623" duration="6340000" />
       <workItem from="1588497865676" duration="3865000" />
       <workItem from="1588519359715" duration="6150000" />
-      <workItem from="1588556729686" duration="4159000" />
+      <workItem from="1588556729686" duration="6151000" />
+      <workItem from="1588565643709" duration="3360000" />
+      <workItem from="1588570272782" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="完成图片上传">
       <created>1588558048785</created>
@@ -353,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588558955760</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完成图片上传2">
+      <created>1588560947935</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588560947935</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,19 +321,19 @@
     </state>
     <state x="212" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1304.768@0.0.1304.768" timestamp="1587138566717" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587115681380" />
-    <state x="457" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1588525189526">
+    <state x="457" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1588568984461">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="456" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1301.768@0.0.1301.768" timestamp="1588496073079" />
-    <state x="457" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1304.768@0.0.1304.768" timestamp="1588525189526" />
+    <state x="457" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1304.768@0.0.1304.768" timestamp="1588568984461" />
     <state x="250" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588084468026">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="250" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1304.768@0.0.1304.768" timestamp="1588084468026" />
-    <state x="79" y="0" key="CommitChangelistDialog2" timestamp="1588560095353">
+    <state x="79" y="0" key="CommitChangelistDialog2" timestamp="1588560945894">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="79" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1588560095353" />
+    <state x="79" y="0" key="CommitChangelistDialog2/0.0.1304.768@0.0.1304.768" timestamp="1588560945894" />
     <state x="92" y="92" width="1120" height="584" key="DiffContextDialog" timestamp="1588560036185">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
@@ -445,53 +347,53 @@
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state x="515" y="273" width="273" height="294" key="Github.ShareDialog/0.0.1304.768@0.0.1304.768" timestamp="1588560276717" />
-    <state width="1260" height="257" key="GridCell.Tab.0.bottom" timestamp="1588559179947">
+    <state width="1260" height="100" key="GridCell.Tab.0.bottom" timestamp="1588585232651">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="1257" height="175" key="GridCell.Tab.0.bottom/0.0.1301.768@0.0.1301.768" timestamp="1588497718047" />
-    <state width="1260" height="257" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1588559179947" />
+    <state width="1260" height="100" key="GridCell.Tab.0.bottom/0.0.1304.768@0.0.1304.768" timestamp="1588585232651" />
     <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116138471" />
-    <state width="1260" height="257" key="GridCell.Tab.0.center" timestamp="1588559179946">
+    <state width="1260" height="100" key="GridCell.Tab.0.center" timestamp="1588585232650">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="1257" height="175" key="GridCell.Tab.0.center/0.0.1301.768@0.0.1301.768" timestamp="1588497718046" />
-    <state width="1260" height="257" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1588559179946" />
+    <state width="1260" height="100" key="GridCell.Tab.0.center/0.0.1304.768@0.0.1304.768" timestamp="1588585232650" />
     <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116138471" />
-    <state width="1260" height="257" key="GridCell.Tab.0.left" timestamp="1588559179946">
+    <state width="1260" height="100" key="GridCell.Tab.0.left" timestamp="1588585232650">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="1257" height="175" key="GridCell.Tab.0.left/0.0.1301.768@0.0.1301.768" timestamp="1588497718028" />
-    <state width="1260" height="257" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1588559179946" />
+    <state width="1260" height="100" key="GridCell.Tab.0.left/0.0.1304.768@0.0.1304.768" timestamp="1588585232650" />
     <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116138471" />
-    <state width="1260" height="257" key="GridCell.Tab.0.right" timestamp="1588559179947">
+    <state width="1260" height="100" key="GridCell.Tab.0.right" timestamp="1588585232650">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="1257" height="175" key="GridCell.Tab.0.right/0.0.1301.768@0.0.1301.768" timestamp="1588497718047" />
-    <state width="1260" height="257" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1588559179947" />
+    <state width="1260" height="100" key="GridCell.Tab.0.right/0.0.1304.768@0.0.1304.768" timestamp="1588585232650" />
     <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116138471" />
-    <state width="1260" height="257" key="GridCell.Tab.1.bottom" timestamp="1588559179947">
+    <state width="1260" height="100" key="GridCell.Tab.1.bottom" timestamp="1588585232651">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="1257" height="175" key="GridCell.Tab.1.bottom/0.0.1301.768@0.0.1301.768" timestamp="1588497718048" />
-    <state width="1260" height="257" key="GridCell.Tab.1.bottom/0.0.1304.768@0.0.1304.768" timestamp="1588559179947" />
+    <state width="1260" height="100" key="GridCell.Tab.1.bottom/0.0.1304.768@0.0.1304.768" timestamp="1588585232651" />
     <state width="1876" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116138472" />
-    <state width="1260" height="257" key="GridCell.Tab.1.center" timestamp="1588559179947">
+    <state width="1260" height="100" key="GridCell.Tab.1.center" timestamp="1588585232651">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="1257" height="175" key="GridCell.Tab.1.center/0.0.1301.768@0.0.1301.768" timestamp="1588497718047" />
-    <state width="1260" height="257" key="GridCell.Tab.1.center/0.0.1304.768@0.0.1304.768" timestamp="1588559179947" />
+    <state width="1260" height="100" key="GridCell.Tab.1.center/0.0.1304.768@0.0.1304.768" timestamp="1588585232651" />
     <state width="1876" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116138471" />
-    <state width="1260" height="257" key="GridCell.Tab.1.left" timestamp="1588559179947">
+    <state width="1260" height="100" key="GridCell.Tab.1.left" timestamp="1588585232651">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="1257" height="175" key="GridCell.Tab.1.left/0.0.1301.768@0.0.1301.768" timestamp="1588497718047" />
-    <state width="1260" height="257" key="GridCell.Tab.1.left/0.0.1304.768@0.0.1304.768" timestamp="1588559179947" />
+    <state width="1260" height="100" key="GridCell.Tab.1.left/0.0.1304.768@0.0.1304.768" timestamp="1588585232651" />
     <state width="1876" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116138471" />
-    <state width="1260" height="257" key="GridCell.Tab.1.right" timestamp="1588559179947">
+    <state width="1260" height="100" key="GridCell.Tab.1.right" timestamp="1588585232651">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
     <state width="1257" height="175" key="GridCell.Tab.1.right/0.0.1301.768@0.0.1301.768" timestamp="1588497718047" />
-    <state width="1260" height="257" key="GridCell.Tab.1.right/0.0.1304.768@0.0.1304.768" timestamp="1588559179947" />
+    <state width="1260" height="100" key="GridCell.Tab.1.right/0.0.1304.768@0.0.1304.768" timestamp="1588585232651" />
     <state width="1876" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116138471" />
     <state width="1260" height="257" key="GridCell.Tab.2.bottom" timestamp="1588559179947">
       <screen x="0" y="0" width="1304" height="768" />
@@ -518,10 +420,10 @@
     </state>
     <state x="264" y="0" key="SettingsEditor/0.0.1304.768@0.0.1304.768" timestamp="1588560792082" />
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587116079706" />
-    <state x="244" y="116" key="Vcs.Push.Dialog.v2" timestamp="1588559893324">
+    <state x="244" y="116" key="Vcs.Push.Dialog.v2" timestamp="1588585248842">
       <screen x="0" y="0" width="1304" height="768" />
     </state>
-    <state x="244" y="116" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1588559893324" />
+    <state x="244" y="116" key="Vcs.Push.Dialog.v2/0.0.1304.768@0.0.1304.768" timestamp="1588585248842" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587911249756">
       <screen x="0" y="0" width="1304" height="768" />
     </state>

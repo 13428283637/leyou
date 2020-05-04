@@ -16,7 +16,9 @@ public enum ExceptionEnum {
     UPLOAD_FILE_ERROR(500, "文件上传失败"),
     INVALID_FILE_TYPE(500, "非法文件类型"),
     UPLOAD_IMAGE_EXCEPTION(500, "文件上传异常"),
+    BRAND_UPDATE_FAIL(500, "品牌更新失败"),
     ;
+
     int value;
     String message;
     public int value() {
